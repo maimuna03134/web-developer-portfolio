@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-1 {
+    color: #181818;
+}
+
+.dark-2 {
+    color: #474747;
+}
+
+.dark-3 {
+    color: #757575;
+}
+
+/* button */
+.btn-primary {
+    background-color: #FD6E0A;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+.btn-secondary {
+    background-color: #FFF8F3;
+    font-weight: bold;
+    font-size: 20px;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 18px 35px;
+}
+
+/* header */
+.header {
+    background-color: #FFF8F3;
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    width: 1600px;
+    height: 839px;
+}
+
+/* nav styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+/* banner-style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 35px 0 200px;
+}
+.banner-content {
+    max-width: 580px;
+}
+.banner-content,
+.btn-secondary {
+    margin-left: 30px;
+}
+.bannere-greetings {
+    margin: auto;
+    font-weight: 600;
+    font-size: 45px;
+}
+.banner-title {
+    font-weight: bold;
+    font-size: 85px;
+    margin-top: auto;
+    margin-bottom: 20px;
+
+}
+.banner-description {
+    font-weight: normal;
+    font-size: 18px;
+}
+/* background image */
+.banner-content,.banner-profile-pic{
+    width: 584px;
+    height: 688px;
+    margin-bottom: 62px;
+}
